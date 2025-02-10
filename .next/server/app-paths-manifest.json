@@ -1,0 +1,8 @@
+{
+  "/page": "static/webpack/app/page.7c90c2870737103a.hot-update.js",
+  "/event/[url]/page": "app/event/[url]/page.js",
+  "/list/page": "app/list/page.js",
+  "/buy/page": "app/buy/page.js",
+  "/manifest.json/route": "app/manifest.json/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
