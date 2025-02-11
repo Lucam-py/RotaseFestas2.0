@@ -7,7 +7,7 @@ const Page = (): never => {
 };
 
 export const metadata: Metadata = {
-  title: '404 - Not found',
+  title: 'Erro 404 - Desculpa! Página não Encontrada.',
 };
 
 export default Page;

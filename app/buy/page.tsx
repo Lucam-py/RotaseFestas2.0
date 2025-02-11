@@ -1,3 +1,5 @@
+/** @jsxImportSource react */
+import React from 'react';
 import Link from 'next/link';
 
 import { type Metadata } from 'next';
@@ -24,13 +26,13 @@ const Page: React.FC = () => (
           <div className="padding-top">
             <Heading type={5} color="gray" text="Details" />
             <p>
-              <strong>Evento</strong> Event name goes here
+              <strong>Evento</strong> Nome do Evento
             </p>
             <p>
-              <strong>Endereço</strong> Royal Albert Hall
+              <strong>Endereço</strong> Brasília, DF
             </p>
             <p>
-              <strong>Data</strong> Tue, Sep 21, 2024 19:00
+              <strong>Data</strong> Tue, Sep 21, 2025 19:00
             </p>
           </div>
         </div>
@@ -60,7 +62,7 @@ const Page: React.FC = () => (
         <Form />
         <div className="paragraph-container center">
           <p>
-            Ao clicar no botão de pagamento eu concordo com os termos &nbsp;
+            Ao clicar no botão de pagamento, eu concordo com os termos &nbsp;
             <Link href="/legal/terms-of-service" className="blue">
               Termos do serviço
             </Link>
