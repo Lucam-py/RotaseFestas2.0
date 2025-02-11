@@ -14,7 +14,7 @@ const Page: React.FC = () => (
     <Section className="white-background">
       <div className="container">
         <div className="center">
-          <Heading type={1} color="gray" text="Buy tickets" />
+          <Heading type={1} color="gray" text="Comprar Tickets" />
           <p className="gray">
             Please enter your personal &amp; payment details. We will issue and
             send your tickets your e-mail address immediately.
