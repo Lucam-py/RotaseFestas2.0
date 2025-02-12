@@ -28,6 +28,58 @@
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
       }
     },
+    "/event/[url]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/event/[url]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/event/[url]/page.js"
+      ],
+      "name": "app/event/[url]/page",
+      "page": "/event/[url]/page",
+      "matchers": [
+        {
+          "regexp": "^/event/(?<url>[^/]+?)$",
+          "originalSource": "/event/[url]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
+      }
+    },
+    "/[...not_found]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[...not_found]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[...not_found]/page.js"
+      ],
+      "name": "app/[...not_found]/page",
+      "page": "/[...not_found]/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<not_found>.+?)$",
+          "originalSource": "/[...not_found]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
+      }
+    },
     "/contact/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -54,23 +106,23 @@
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
       }
     },
-    "/event/[url]/page": {
+    "/list/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/event/[url]/page_client-reference-manifest.js",
+        "server/app/list/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "server/interception-route-rewrite-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/event/[url]/page.js"
+        "server/app/list/page.js"
       ],
-      "name": "app/event/[url]/page",
-      "page": "/event/[url]/page",
+      "name": "app/list/page",
+      "page": "/list/page",
       "matchers": [
         {
-          "regexp": "^/event/(?<url>[^/]+?)$",
-          "originalSource": "/event/[url]"
+          "regexp": "^/list$",
+          "originalSource": "/list"
         }
       ],
       "wasm": [],

@@ -1,7 +1,9 @@
 {
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
   "/event/[url]/page": "app/event/[url]/page.js",
+  "/[...not_found]/page": "app/[...not_found]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/list/page": "app/list/page.js",
   "/manifest.json/route": "app/manifest.json/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }
