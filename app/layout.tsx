@@ -16,9 +16,9 @@ const RootLayout: React.FC<Readonly<{ children: React.ReactNode }>> = ({
   </html>
 );
 
-const title = 'Rotas e Festas';
+const title = 'Rotas & Festas';
 const canonical = 'https://rotasefestas.com.br';
-const description = 'Rotas e Festas is a Rotas e Festas solution';
+const description = 'Rotas e Festas a plataforma de ingressos sustentável que conecta pessoas a eventos e festas de forma prática e segura.';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   keywords: 'Rotas e festas',
   alternates: { canonical },
   icons: {
-    icon: '/favicon.ico',
-    apple: '/logo192.png',
-    shortcut: '/logo192.png',
+    icon: '<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">',
+    apple: '<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">',
+    shortcut: '<link rel="manifest" href="/site.webmanifest">',
   },
   metadataBase: new URL(canonical),
   openGraph: {

@@ -2,32 +2,6 @@
   "version": 3,
   "middleware": {},
   "functions": {
-    "/event/[url]/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/event/[url]/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/interception-route-rewrite-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/event/[url]/page.js"
-      ],
-      "name": "app/event/[url]/page",
-      "page": "/event/[url]/page",
-      "matchers": [
-        {
-          "regexp": "^/event/(?<url>[^/]+?)$",
-          "originalSource": "/event/[url]"
-        }
-      ],
-      "wasm": [],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "development",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
-      }
-    },
     "/members/account/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -45,32 +19,6 @@
         {
           "regexp": "^/members/account$",
           "originalSource": "/members/account"
-        }
-      ],
-      "wasm": [],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "development",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
-      }
-    },
-    "/contact/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/contact/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/interception-route-rewrite-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/contact/page.js"
-      ],
-      "name": "app/contact/page",
-      "page": "/contact/page",
-      "matchers": [
-        {
-          "regexp": "^/contact$",
-          "originalSource": "/contact"
         }
       ],
       "wasm": [],
@@ -106,6 +54,32 @@
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
       }
     },
+    "/event/[url]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/event/[url]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/event/[url]/page.js"
+      ],
+      "name": "app/event/[url]/page",
+      "page": "/event/[url]/page",
+      "matchers": [
+        {
+          "regexp": "^/event/(?<url>[^/]+?)$",
+          "originalSource": "/event/[url]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
+      }
+    },
     "/list/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -123,6 +97,32 @@
         {
           "regexp": "^/list$",
           "originalSource": "/list"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/PXHxFxMuIzG1ooRAX7mUHKqyTKmcfX13ta1tpCbbAc="
+      }
+    },
+    "/contact/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/contact/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/contact/page.js"
+      ],
+      "name": "app/contact/page",
+      "page": "/contact/page",
+      "matchers": [
+        {
+          "regexp": "^/contact$",
+          "originalSource": "/contact"
         }
       ],
       "wasm": [],

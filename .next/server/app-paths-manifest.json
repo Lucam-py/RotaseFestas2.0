@@ -1,9 +1,7 @@
 {
-  "/event/[url]/page": "static/webpack/app/event/[url]/page.7e74776ed4cf0a2e.hot-update.js",
-  "/members/account/page": "static/webpack/app/members/account/page.7e74776ed4cf0a2e.hot-update.js",
-  "/contact/page": "static/webpack/app/contact/page.7e74776ed4cf0a2e.hot-update.js",
-  "/page": "static/webpack/app/page.7e74776ed4cf0a2e.hot-update.js",
-  "/list/page": "static/webpack/app/list/page.7e74776ed4cf0a2e.hot-update.js",
-  "/manifest.json/route": "app/manifest.json/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/members/account/page": "app/members/account/page.js",
+  "/page": "app/page.js",
+  "/event/[url]/page": "app/event/[url]/page.js",
+  "/list/page": "app/list/page.js",
+  "/contact/page": "app/contact/page.js"
 }
