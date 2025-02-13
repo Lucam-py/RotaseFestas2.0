@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     url: canonical,
     type: 'website',
     siteName: 'Rotas e Festas',
-    images: 'https://rotasefestas.com/logo192.png',
+    images: 'https://www.dropbox.com/scl/fi/pnl71grvtvqz7pf09njb5/rotas-e-festassss.png?rlkey=8mrozgi9wpr0xqy9hjqoh1x9m&st=p9y3956o&raw=1',
   },
 };
 

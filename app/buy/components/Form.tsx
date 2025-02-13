@@ -132,7 +132,7 @@ const Form: React.FC = () => {
           <Button
             type="submit"
             color="blue-filled"
-            text="Efetuar pagamento & emitir tickets"
+            text="Efetuar pagamento"
           />
         </div>
       </div>

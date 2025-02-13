@@ -11,7 +11,7 @@ const Page: React.FC = () => (
     <Section className="white-background">
       <div className="container">
         <div className="padding-bottom center">
-          <Heading type={1} color="gray" text="Contact us" />
+          <Heading type={1} color="orange" text="Contato" />
           <p className="gray form-information">
             Por favor, sinta-se livre para entrar em contato através dos nossos
             canais de comunicação a respeito de qualquer dúvida, elogio ou
@@ -23,24 +23,24 @@ const Page: React.FC = () => (
     <Section className="gray-background">
       <div className="container">
         <div className="center">
-          <Heading type={5} color="gray" text="Customer service" />
+          <Heading type={5} color="orange" text="ATENDIMENTO AO CLIENTE" />
           <p className="gray form-information">
-            Nosso serviço de atendimento ao cliente está disponível de segunda a
+            Nosso serviço de atendimento ao cliente está disponível de segunda à
             sexta das <strong>08:00</strong> às <strong>18:00</strong>, e nos
             finais de semana <strong>09:00</strong> às <strong>13:00</strong>.
-            Por favor, clique no botão abaixo para atendimento online.
+            Por favor, clique no botão para ser atendido.
           </p>
           <div className="button-container">
             <ButtonLink
-              color="gray-overlay"
-              text="Live assistance"
+              color="green-overlay"
+              text="Whatsapp"
               rightIcon="arrow_forward"
               url=""
             />
             &nbsp; &nbsp;
             <ButtonLink
-              color="gray-filled"
-              text="Drop us an e-mail"
+              color="orange-filled"
+              text="E-mail"
               rightIcon="arrow_forward"
               url=""
             />
@@ -51,7 +51,7 @@ const Page: React.FC = () => (
     <Section className="white-background">
       <div className="container">
         <div className="center">
-          <Heading type={5} color="gray" text="How can we help you?" />
+          <Heading type={5} color="gray" text="Como podemos ajudá-lo(a)?" />
           <p className="gray form-information">
             Gostaria de navegar através da seção de ajuda para encontrar as
             respostas a sua dúvida que nos solicitou?
@@ -70,21 +70,21 @@ const Page: React.FC = () => (
     <Section className="gray-background">
       <div className="container">
         <div className="center">
-          <Heading type={5} color="gray" text="Communication details" />
+          <Heading type={5} color="gray" text="Mais Informações" />
           <div className="paragraph-container">
             <p className="gray">
               você pode enviar sua dúvida para o seguinte e-mail
               <br />
-              <strong>hello@rotasefestas.com</strong>
+              <strong>hello@rotasefestas.com.br</strong>
               <br />
-              <strong>+55 7140028922</strong>
+              <strong>+55 71 98302-3372</strong>
               <br />
             </p>
           </div>
           <div className="button-container">
             <ButtonLink
               color="blue-filled"
-              text="Open maps"
+              text="Abrir Mapa"
               rightIcon="arrow_forward"
               url=""
             />

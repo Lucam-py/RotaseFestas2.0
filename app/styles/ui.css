@@ -335,7 +335,7 @@ a.button {
 }
 
 .select * {
-  color: var(--black);
+  color: var(--yellow);
   background-color: var(--light-gray);
 }
 

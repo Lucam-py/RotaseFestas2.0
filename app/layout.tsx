@@ -11,13 +11,13 @@ export const runtime = 'edge';
 const RootLayout: React.FC<Readonly<{ children: React.ReactNode }>> = ({
   children,
 }) => (
-  <html lang="en">
+  <html lang="pt-br">
     <body>{children}</body>
   </html>
 );
 
 const title = 'Rotas e Festas';
-const canonical = 'https://rotasefestas.com';
+const canonical = 'https://rotasefestas.com.br';
 const description = 'Rotas e Festas is a Rotas e Festas solution';
 
 export const viewport: Viewport = {

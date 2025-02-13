@@ -54,7 +54,7 @@ section {
 }
 
 ::selection {
-  color: #ffffff;
+  color: #f15a24;
   background: var(--gray);
 }
 
@@ -134,7 +134,7 @@ header .container {
 }
 
 header .container .logo {
-  width: 250px;
+  width: 200px;
   white-space: nowrap;
 }
 
@@ -822,7 +822,7 @@ footer .terms a:hover {
 }
 
 .circle-button .circle:hover {
-  background-color: var(--light-gray);
+  background-color: var(--orange);
 }
 
 .circle-button .circle:active {
@@ -1785,7 +1785,7 @@ a.button {
 }
 
 .select * {
-  color: var(--black);
+  color: var(--yellow);
   background-color: var(--light-gray);
 }
 
